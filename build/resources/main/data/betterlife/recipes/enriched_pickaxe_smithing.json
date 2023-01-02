@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_pickaxe"
+  },
+  "addition": {
+    "item": "betterlife:enriched_netherite"
+  },
+  "result": {
+    "item": "betterlife:enriched_netherite_pickaxe"
+  }
+}

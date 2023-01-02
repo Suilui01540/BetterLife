@@ -1,0 +1,10 @@
+{
+  "group": "enrichedblazerecipes",
+  "type": "minecraft:smelting",
+  "experience": 3,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "betterlife:contaminated_sand"
+  },
+  "result": "betterlife:uranium_fragment"
+}

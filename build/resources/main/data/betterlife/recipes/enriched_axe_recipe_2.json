@@ -1,0 +1,22 @@
+{
+  "group": "enrichedaxe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterlife:enriched_blaze_powder"
+    },
+    {
+      "item": "betterlife:enriched_blaze_powder"
+    },
+    {
+      "item": "betterlife:enriched_blaze_powder"
+    },
+    {
+      "item": "minecraft:netherite_axe"
+    }
+  ],
+  "result": {
+    "item": "betterlife:enriched_netherite_axe",
+    "count": 1
+  }
+}

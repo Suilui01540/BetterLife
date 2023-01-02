@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "enrichedingot",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EnrichedBlazePowder"
+      },
+      {
+        "value": "CUSTOM:Uranium"
+      },
+      {
+        "value": "CUSTOM:EnrichedBlazePowder"
+      },
+      {
+        "value": "CUSTOM:Uranium"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "CUSTOM:Uranium"
+      },
+      {
+        "value": "CUSTOM:EnrichedBlazePowder"
+      },
+      {
+        "value": "CUSTOM:Uranium"
+      },
+      {
+        "value": "CUSTOM:EnrichedBlazePowder"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnrichedNetherite"
+    },
+    "name": "enriched_netherite_crafting",
+    "namespace": "mod"
+  }
+}

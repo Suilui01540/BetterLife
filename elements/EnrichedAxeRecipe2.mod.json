@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "enrichedaxe",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EnrichedBlazePowder"
+      },
+      {
+        "value": "CUSTOM:EnrichedBlazePowder"
+      },
+      {
+        "value": "CUSTOM:EnrichedBlazePowder"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.NETHERITE_AXE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnrichedNetheriteAxe"
+    },
+    "name": "enriched_axe_recipe_2",
+    "namespace": "mod"
+  }
+}

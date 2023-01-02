@@ -1,0 +1,37 @@
+{
+  "group": "enrichedingot",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterlife:enriched_blaze_powder"
+    },
+    {
+      "item": "betterlife:uranium"
+    },
+    {
+      "item": "betterlife:enriched_blaze_powder"
+    },
+    {
+      "item": "betterlife:uranium"
+    },
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "betterlife:uranium"
+    },
+    {
+      "item": "betterlife:enriched_blaze_powder"
+    },
+    {
+      "item": "betterlife:uranium"
+    },
+    {
+      "item": "betterlife:enriched_blaze_powder"
+    }
+  ],
+  "result": {
+    "item": "betterlife:enriched_netherite",
+    "count": 1
+  }
+}

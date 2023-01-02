@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Shielding",
+    "splashName": "Splash Potion of Shielding",
+    "lingeringName": "Lingering Potion of Shielding",
+    "arrowName": "Arrow of Shielding",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:ShieldingPotionEffect"
+        },
+        "duration": 900,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

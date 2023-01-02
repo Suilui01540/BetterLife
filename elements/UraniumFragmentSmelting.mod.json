@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 3.0,
+    "cookingTime": 400,
+    "recipeRetstackSize": 1,
+    "group": "enrichedblazerecipes",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:ContaminatedSand"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:UraniumFragment"
+    },
+    "name": "uranium_fragment_smelting",
+    "namespace": "mod"
+  }
+}

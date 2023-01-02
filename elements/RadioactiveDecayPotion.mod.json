@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Radioactive Decay",
+    "splashName": "Splash Potion of Radioactive Decay",
+    "lingeringName": "Lingering Potion of Radioactive Decay",
+    "arrowName": "Arrow of Radioactive Decay",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:RadioactiveDecay"
+        },
+        "duration": 600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

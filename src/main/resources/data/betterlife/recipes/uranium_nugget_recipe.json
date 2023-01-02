@@ -1,0 +1,42 @@
+{
+  "group": "uraniumnugget",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "betterlife:uranium_fragment"
+    },
+    "1": {
+      "item": "betterlife:uranium_fragment"
+    },
+    "2": {
+      "item": "betterlife:uranium_fragment"
+    },
+    "3": {
+      "item": "betterlife:uranium_fragment"
+    },
+    "4": {
+      "item": "betterlife:uranium_fragment"
+    },
+    "5": {
+      "item": "betterlife:uranium_fragment"
+    },
+    "6": {
+      "item": "betterlife:uranium_fragment"
+    },
+    "7": {
+      "item": "betterlife:uranium_fragment"
+    },
+    "8": {
+      "item": "betterlife:uranium_fragment"
+    }
+  },
+  "result": {
+    "item": "betterlife:uranium_nugget",
+    "count": 1
+  }
+}

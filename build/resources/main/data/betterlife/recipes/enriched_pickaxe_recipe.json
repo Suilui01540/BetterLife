@@ -1,0 +1,22 @@
+{
+  "group": "enrichedpickaxe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterlife:enriched_blaze_powder"
+    },
+    {
+      "item": "betterlife:enriched_blaze_powder"
+    },
+    {
+      "item": "betterlife:enriched_blaze_powder"
+    },
+    {
+      "item": "minecraft:netherite_pickaxe"
+    }
+  ],
+  "result": {
+    "item": "betterlife:enriched_netherite_pickaxe",
+    "count": 1
+  }
+}

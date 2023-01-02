@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "1": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "2": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "3": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "4": {
+      "item": "minecraft:netherite_chestplate"
+    },
+    "5": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "6": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "7": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "8": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "betterlife:shielding_armor_chestplate",
+    "count": 1
+  }
+}

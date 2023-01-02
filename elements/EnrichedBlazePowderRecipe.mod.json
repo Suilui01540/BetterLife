@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "enrichedblazerecipes",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Uranium"
+      },
+      {
+        "value": "CUSTOM:Uranium"
+      },
+      {
+        "value": "CUSTOM:Uranium"
+      },
+      {
+        "value": "CUSTOM:Uranium"
+      },
+      {
+        "value": "Items.BLAZE_POWDER"
+      },
+      {
+        "value": "CUSTOM:Uranium"
+      },
+      {
+        "value": "CUSTOM:Uranium"
+      },
+      {
+        "value": "CUSTOM:Uranium"
+      },
+      {
+        "value": "CUSTOM:Uranium"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EnrichedBlazePowder"
+    },
+    "name": "enriched_blaze_powder_recipe",
+    "namespace": "mod"
+  }
+}

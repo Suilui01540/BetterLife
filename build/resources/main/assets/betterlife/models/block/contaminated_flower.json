@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "betterlife:blocks/contaminated_flower",
+    "particle": "betterlife:blocks/contaminated_flower"
+  },
+  "render_type": "cutout"
+}

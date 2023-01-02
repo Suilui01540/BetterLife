@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "POTION:HARMING"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:Uranium"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:RadioactiveDecayPotion"
+    },
+    "name": "radioactive_decay_potion_recipe",
+    "namespace": "mod"
+  }
+}

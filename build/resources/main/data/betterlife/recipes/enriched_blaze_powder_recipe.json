@@ -1,0 +1,42 @@
+{
+  "group": "enrichedblazerecipes",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "betterlife:uranium"
+    },
+    "1": {
+      "item": "betterlife:uranium"
+    },
+    "2": {
+      "item": "betterlife:uranium"
+    },
+    "3": {
+      "item": "betterlife:uranium"
+    },
+    "4": {
+      "item": "minecraft:blaze_powder"
+    },
+    "5": {
+      "item": "betterlife:uranium"
+    },
+    "6": {
+      "item": "betterlife:uranium"
+    },
+    "7": {
+      "item": "betterlife:uranium"
+    },
+    "8": {
+      "item": "betterlife:uranium"
+    }
+  },
+  "result": {
+    "item": "betterlife:enriched_blaze_powder",
+    "count": 1
+  }
+}

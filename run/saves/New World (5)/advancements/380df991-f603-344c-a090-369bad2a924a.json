@@ -1,0 +1,65 @@
+{
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-01-02 15:40:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-01-02 15:40:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-01-02 15:40:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-01-02 15:40:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-01-02 15:40:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-01-02 15:40:24 +0100"
+    },
+    "done": true
+  },
+  "betterlife:the_heart_of_energy": {
+    "criteria": {
+      "the_heart_of_energy": "2023-01-02 15:34:46 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-01-02 15:40:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2023-01-02 15:35:57 +0100",
+      "minecraft:snowy_taiga": "2023-01-02 15:34:42 +0100",
+      "minecraft:grove": "2023-01-02 15:34:04 +0100",
+      "minecraft:forest": "2023-01-02 15:35:14 +0100",
+      "minecraft:lush_caves": "2023-01-02 15:38:28 +0100",
+      "minecraft:desert": "2023-01-02 15:37:43 +0100",
+      "minecraft:jungle": "2023-01-02 15:37:34 +0100",
+      "minecraft:warm_ocean": "2023-01-02 15:37:11 +0100",
+      "minecraft:plains": "2023-01-02 15:35:25 +0100"
+    },
+    "done": false
+  },
+  "DataVersion": 3120
+}

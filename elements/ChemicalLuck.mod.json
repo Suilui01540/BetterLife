@@ -1,0 +1,38 @@
+{
+  "_fv": 34,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Chemical Luck",
+    "type": "BREAKABLE",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "FORTUNE"
+      },
+      {
+        "value": "EFFICIENCY"
+      },
+      {
+        "value": "UNBREAKING"
+      }
+    ],
+    "excludeEnchantments": true,
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:WoodenGripper"
+      },
+      {
+        "value": "CUSTOM:IronGripper"
+      }
+    ],
+    "excludeItems": false,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

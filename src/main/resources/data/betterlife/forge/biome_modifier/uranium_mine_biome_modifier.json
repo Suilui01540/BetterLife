@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "betterlife:scree_desert",
+  "features": "betterlife:uranium_mine",
+  "step": "surface_structures"
+}

@@ -1,0 +1,13 @@
+{
+  "group": "uraniumnugget",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterlife:uranium"
+    }
+  ],
+  "result": {
+    "item": "betterlife:uranium_nugget",
+    "count": 9
+  }
+}

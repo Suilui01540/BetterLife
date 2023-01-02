@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "dripstone_caves",
+    "betterlife:scree_desert"
+  ],
+  "features": "betterlife:deepslate_uranium_ore",
+  "step": "underground_ores"
+}

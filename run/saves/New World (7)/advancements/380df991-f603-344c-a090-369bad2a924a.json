@@ -1,0 +1,45 @@
+{
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2023-01-01 18:19:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2023-01-01 18:20:28 +0100"
+    },
+    "done": true
+  },
+  "betterlife:uranium_collect": {
+    "criteria": {
+      "uranium_collect": "2023-01-01 18:19:27 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2023-01-01 18:19:38 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2023-01-01 18:20:18 +0100"
+    },
+    "done": true
+  },
+  "betterlife:the_heart_of_energy": {
+    "criteria": {
+      "the_heart_of_energy": "2023-01-01 18:13:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2023-01-01 18:19:38 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

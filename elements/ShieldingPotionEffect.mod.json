@@ -1,0 +1,17 @@
+{
+  "_fv": 34,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Shielding",
+    "icon": "shielding.png",
+    "color": {
+      "value": -6283274,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "enrichedpickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "betterlife:enriched_netherite"
+    },
+    "1": {
+      "item": "betterlife:enriched_netherite"
+    },
+    "2": {
+      "item": "betterlife:enriched_netherite"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "betterlife:enriched_netherite_pickaxe",
+    "count": 1
+  }
+}

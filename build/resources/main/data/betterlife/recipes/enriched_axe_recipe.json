@@ -1,0 +1,25 @@
+{
+  "group": "enrichedaxe",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterlife:enriched_netherite"
+    },
+    {
+      "item": "betterlife:enriched_netherite"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "betterlife:enriched_netherite"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "betterlife:enriched_netherite_axe",
+    "count": 1
+  }
+}

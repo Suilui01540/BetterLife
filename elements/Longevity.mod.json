@@ -1,0 +1,32 @@
+{
+  "_fv": 34,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Longevity",
+    "type": "BREAKABLE",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "UNBREAKING"
+      },
+      {
+        "value": "EFFICIENCY"
+      }
+    ],
+    "excludeEnchantments": true,
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:WoodenGripper"
+      }
+    ],
+    "excludeItems": false,
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}
