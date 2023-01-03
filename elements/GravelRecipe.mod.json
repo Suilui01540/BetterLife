@@ -7,7 +7,7 @@
     "cookingTime": 200,
     "recipeRetstackSize": 2,
     "group": "gravelrecipe",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""

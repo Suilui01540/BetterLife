@@ -41,9 +41,11 @@ public class UraniumItemInInventoryTickProcedure {
 			}.checkGamemode(entity))) {
 				if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)
 						.getItem() == BetterlifeModItems.SHIELDING_ARMOR_CHESTPLATE.get())) {
-					if (!(entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(BetterlifeModMobEffects.RADIOACTIVE_DECAY.get()) : false)) {
+					if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(BetterlifeModMobEffects.RADIOACTIVE_DECAY.get())
+							? _livEnt.getEffect(BetterlifeModMobEffects.RADIOACTIVE_DECAY.get()).getAmplifier()
+							: 0) < 2) {
 						if (entity instanceof LivingEntity _entity)
-							_entity.addEffect(new MobEffectInstance(BetterlifeModMobEffects.RADIOACTIVE_DECAY.get(), 30, 0, (false), (true)));
+							_entity.addEffect(new MobEffectInstance(BetterlifeModMobEffects.RADIOACTIVE_DECAY.get(), 30, 2, (false), (true)));
 					}
 				}
 			}

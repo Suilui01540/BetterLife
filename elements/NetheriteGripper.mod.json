@@ -1,0 +1,40 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "netherite_gripper",
+    "customModelName": "Normal",
+    "name": "Netherite Gripper",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 22.0,
+    "attackSpeed": 1.4,
+    "enchantability": 15,
+    "damageVsEntity": 4.8,
+    "usageCount": 677,
+    "blocksAffected": [
+      {
+        "value": "CUSTOM:ContaminatedSand"
+      },
+      {
+        "value": "Blocks.GRAVEL"
+      },
+      {
+        "value": "CUSTOM:ContaminatedFlower"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "WoodenGripperBlockDestroyedWithTool"
+    }
+  }
+}

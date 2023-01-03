@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "betterlife:diamond_gripper"
+  },
+  "addition": {
+    "item": "betterlife:enriched_netherite"
+  },
+  "result": {
+    "item": "betterlife:enriched_netherite_gripper"
+  }
+}

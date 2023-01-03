@@ -1,0 +1,40 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamond_gripper",
+    "customModelName": "Normal",
+    "name": "Diamond Gripper",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 18.0,
+    "attackSpeed": 1.4,
+    "enchantability": 14,
+    "damageVsEntity": 3.8,
+    "usageCount": 512,
+    "blocksAffected": [
+      {
+        "value": "CUSTOM:ContaminatedSand"
+      },
+      {
+        "value": "Blocks.GRAVEL"
+      },
+      {
+        "value": "CUSTOM:ContaminatedFlower"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "WoodenGripperBlockDestroyedWithTool"
+    }
+  }
+}

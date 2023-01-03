@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "iron_gripper",
+    "texture": "iron_gripper_new",
     "customModelName": "Normal",
     "name": "Iron Gripper",
     "specialInfo": [],
@@ -12,9 +12,9 @@
     },
     "toolType": "Special",
     "harvestLevel": 1,
-    "efficiency": 26.0,
+    "efficiency": 12.5,
     "attackSpeed": 1.4000000000000001,
-    "enchantability": 12,
+    "enchantability": 13,
     "damageVsEntity": 2.8,
     "usageCount": 214,
     "blocksAffected": [

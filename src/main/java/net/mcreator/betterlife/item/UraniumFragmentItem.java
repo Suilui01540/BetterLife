@@ -10,7 +10,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.betterlife.procedures.UraniumItemIsDroppedByPlayerProcedure;
-import net.mcreator.betterlife.procedures.UraniumItemInInventoryTickProcedure;
+import net.mcreator.betterlife.procedures.UraniumFragmentItemInInventoryTickProcedure;
 
 public class UraniumFragmentItem extends Item {
 	public UraniumFragmentItem() {
@@ -20,7 +20,7 @@ public class UraniumFragmentItem extends Item {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		UraniumItemInInventoryTickProcedure.execute(entity);
+		UraniumFragmentItemInInventoryTickProcedure.execute(entity);
 	}
 
 	@Override

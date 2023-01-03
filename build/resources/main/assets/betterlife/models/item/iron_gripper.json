@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "betterlife:items/iron_gripper"
+    "layer0": "betterlife:items/iron_gripper_new"
   }
 }

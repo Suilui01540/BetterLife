@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "iodine",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IodidePowder"
+      },
+      {
+        "value": "CUSTOM:IodidePowder"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IodidePowder"
+      },
+      {
+        "value": "CUSTOM:IodidePowder"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IodinePill"
+    },
+    "name": "iodine_pill_recipe",
+    "namespace": "mod"
+  }
+}

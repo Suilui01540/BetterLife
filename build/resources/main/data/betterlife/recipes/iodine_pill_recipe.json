@@ -1,0 +1,26 @@
+{
+  "group": "iodine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "betterlife:iodide_powder"
+    },
+    "1": {
+      "item": "betterlife:iodide_powder"
+    },
+    "2": {
+      "item": "betterlife:iodide_powder"
+    },
+    "3": {
+      "item": "betterlife:iodide_powder"
+    }
+  },
+  "result": {
+    "item": "betterlife:iodine_pill",
+    "count": 1
+  }
+}

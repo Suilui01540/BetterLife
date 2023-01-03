@@ -1,20 +1,24 @@
 {
   "group": "gravelrecipe",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
       "item": "minecraft:flint"
     },
-    {
+    "1": {
       "item": "minecraft:flint"
     },
-    {
+    "2": {
       "item": "minecraft:flint"
     },
-    {
+    "3": {
       "item": "minecraft:flint"
     }
-  ],
+  },
   "result": {
     "item": "minecraft:gravel",
     "count": 2

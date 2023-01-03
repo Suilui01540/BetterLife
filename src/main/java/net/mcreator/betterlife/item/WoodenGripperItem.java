@@ -30,7 +30,7 @@ public class WoodenGripperItem extends Item {
 	@Override
 	public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
 		return List.of(BetterlifeModBlocks.CONTAMINATED_SAND.get(), Blocks.GRAVEL, BetterlifeModBlocks.CONTAMINATED_FLOWER.get())
-				.contains(blockstate.getBlock()) ? 12.5f : 1;
+				.contains(blockstate.getBlock()) ? 4f : 1;
 	}
 
 	@Override

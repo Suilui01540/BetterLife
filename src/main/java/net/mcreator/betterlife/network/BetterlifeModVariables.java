@@ -73,6 +73,7 @@ public class BetterlifeModVariables {
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null)
 					.orElse(new PlayerVariables()));
 			clone.ticks = original.ticks;
+			clone.height = original.height;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -110,6 +111,7 @@ public class BetterlifeModVariables {
 
 	public static class PlayerVariables {
 		public double ticks = 0;
+		public double height = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -119,12 +121,14 @@ public class BetterlifeModVariables {
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putDouble("ticks", ticks);
+			nbt.putDouble("height", height);
 			return nbt;
 		}
 
 		public void readNBT(Tag Tag) {
 			CompoundTag nbt = (CompoundTag) Tag;
 			ticks = nbt.getDouble("ticks");
+			height = nbt.getDouble("height");
 		}
 	}
 
@@ -151,6 +155,7 @@ public class BetterlifeModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new PlayerVariables()));
 					variables.ticks = message.data.ticks;
+					variables.height = message.data.height;
 				}
 			});
 			context.setPacketHandled(true);

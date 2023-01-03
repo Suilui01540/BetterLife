@@ -1,0 +1,33 @@
+{
+  "group": "netheritegripper",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "betterlife:enriched_netherite"
+    },
+    "2": {
+      "item": "betterlife:enriched_netherite"
+    },
+    "3": {
+      "item": "minecraft:iron_nugget"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:iron_nugget"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "betterlife:enriched_netherite_gripper",
+    "count": 1
+  }
+}

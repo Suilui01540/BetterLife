@@ -1,0 +1,40 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "stone_gripper",
+    "customModelName": "Normal",
+    "name": "Stone Gripper",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 8.0,
+    "attackSpeed": 1.4000000000000001,
+    "enchantability": 12,
+    "damageVsEntity": 2.3,
+    "usageCount": 214,
+    "blocksAffected": [
+      {
+        "value": "CUSTOM:ContaminatedSand"
+      },
+      {
+        "value": "Blocks.GRAVEL"
+      },
+      {
+        "value": "CUSTOM:ContaminatedFlower"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "WoodenGripperBlockDestroyedWithTool"
+    }
+  }
+}

@@ -9,8 +9,8 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 
+import net.mcreator.betterlife.procedures.UraniumNuggetItemInInventoryTickProcedure;
 import net.mcreator.betterlife.procedures.UraniumItemIsDroppedByPlayerProcedure;
-import net.mcreator.betterlife.procedures.UraniumItemInInventoryTickProcedure;
 
 public class UraniumNuggetItem extends Item {
 	public UraniumNuggetItem() {
@@ -20,7 +20,7 @@ public class UraniumNuggetItem extends Item {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		UraniumItemInInventoryTickProcedure.execute(entity);
+		UraniumNuggetItemInInventoryTickProcedure.execute(entity);
 	}
 
 	@Override

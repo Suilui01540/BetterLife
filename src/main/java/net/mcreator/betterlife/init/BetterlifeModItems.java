@@ -17,12 +17,19 @@ import net.mcreator.betterlife.item.WoodenGripperItem;
 import net.mcreator.betterlife.item.UraniumNuggetItem;
 import net.mcreator.betterlife.item.UraniumItem;
 import net.mcreator.betterlife.item.UraniumFragmentItem;
+import net.mcreator.betterlife.item.StoneGripperItem;
 import net.mcreator.betterlife.item.ShieldingArmorItem;
+import net.mcreator.betterlife.item.NetheriteGripperItem;
 import net.mcreator.betterlife.item.IronGripperItem;
+import net.mcreator.betterlife.item.IodinePillItem;
+import net.mcreator.betterlife.item.IodidePowderItem;
+import net.mcreator.betterlife.item.GoldenGripperItem;
 import net.mcreator.betterlife.item.EnrichedNetheritePickaxeItem;
 import net.mcreator.betterlife.item.EnrichedNetheriteItem;
+import net.mcreator.betterlife.item.EnrichedNetheriteGripperItem;
 import net.mcreator.betterlife.item.EnrichedNetheriteAxeItem;
 import net.mcreator.betterlife.item.EnrichedBlazePowderItem;
+import net.mcreator.betterlife.item.DiamondGripperItem;
 import net.mcreator.betterlife.BetterlifeMod;
 
 public class BetterlifeModItems {
@@ -46,6 +53,14 @@ public class BetterlifeModItems {
 	public static final RegistryObject<Item> CONTAMINATED_FLOWER = block(BetterlifeModBlocks.CONTAMINATED_FLOWER, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> SHIELDING_ARMOR_CHESTPLATE = REGISTRY.register("shielding_armor_chestplate",
 			() -> new ShieldingArmorItem.Chestplate());
+	public static final RegistryObject<Item> IODINE_PILL = REGISTRY.register("iodine_pill", () -> new IodinePillItem());
+	public static final RegistryObject<Item> IODIDE_POWDER = REGISTRY.register("iodide_powder", () -> new IodidePowderItem());
+	public static final RegistryObject<Item> DIAMOND_GRIPPER = REGISTRY.register("diamond_gripper", () -> new DiamondGripperItem());
+	public static final RegistryObject<Item> NETHERITE_GRIPPER = REGISTRY.register("netherite_gripper", () -> new NetheriteGripperItem());
+	public static final RegistryObject<Item> ENRICHED_NETHERITE_GRIPPER = REGISTRY.register("enriched_netherite_gripper",
+			() -> new EnrichedNetheriteGripperItem());
+	public static final RegistryObject<Item> STONE_GRIPPER = REGISTRY.register("stone_gripper", () -> new StoneGripperItem());
+	public static final RegistryObject<Item> GOLDEN_GRIPPER = REGISTRY.register("golden_gripper", () -> new GoldenGripperItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

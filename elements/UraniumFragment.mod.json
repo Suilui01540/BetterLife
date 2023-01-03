@@ -30,7 +30,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onItemInInventoryTick": {
-      "name": "UraniumItemInInventoryTick"
+      "name": "UraniumFragmentItemInInventoryTick"
     },
     "onDroppedByPlayer": {
       "name": "UraniumItemIsDroppedByPlayer"
